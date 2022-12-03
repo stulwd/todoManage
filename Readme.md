@@ -23,3 +23,7 @@ main function is in `./src/main/java/org/sleekflow/lwd/TodosApplication`
 - Todo
 - User
 - CollaborateInfo
+
+## API Docs
+- pdf version of API document is in `./API_Document.pdf`
+- swagger version of API is in `./swaggerAPI.html`

@@ -2,8 +2,13 @@
 
 This project is a `Spring-boot` application, running on `jdk-1.8`.
 
-## Run
+## features
+- User register and login 
+- Jwt Authentication
+- Todos add / del / update / get / filter / sort
+- Join a collaboration, share and modify todos of others within same collaboration.
 
+## Run
 main function is in `./src/main/java/org/sleekflow/lwd/TodosApplication`
 
 

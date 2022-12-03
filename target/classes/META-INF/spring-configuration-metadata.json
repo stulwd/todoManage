@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "secure.ignored",
+      "type": "org.sleekflow.lwd.config.security.IgnoreUrlsConfig",
+      "sourceType": "org.sleekflow.lwd.config.security.IgnoreUrlsConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "secure.ignored.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.sleekflow.lwd.config.security.IgnoreUrlsConfig"
+    }
+  ],
+  "hints": []
+}

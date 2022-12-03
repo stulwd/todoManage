@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f0cc016-5b1f-4cac-9aa8-324f5b4f70e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IGgxmYWTz9mDQkPqhpagDfrljN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.12360942" />
+    <property name="project.structure.side.proportion" value="0.14124292" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.testRunning" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wendi\Desktop\sleekflow\src\main\resources" />
+      <recent name="C:\Users\wendi\Desktop\sleekflow\src\main\java\org\sleekflow\lwd\security\dynamicAccess" />
+      <recent name="C:\Users\wendi\Desktop\sleekflow\src\main\java\org\sleekflow\lwd\security" />
+      <recent name="C:\Users\wendi\Desktop\sleekflow\src\main\java\org\sleekflow\lwd\common" />
+      <recent name="C:\Users\wendi\Desktop\sleekflow\src\main\java\org\sleekflow\lwd\mbg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wendi\Desktop\sleekflow\src\main\resources" />
+      <recent name="C:\Users\wendi\Desktop\sleekflow\src\main\resources\org\sleekflow\lwd" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.sleekflow.lwd" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sleekflow.lwd.security" />
+      <recent name="org.sleekflow.lwd.config" />
+      <recent name="org.sleekflow.lwd" />
+      <recent name="org.sleekflow.lwd.swagger" />
+      <recent name="org.sleekflow.lwd.security.jwt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TodosApplication">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sleekflow.lwd.config.mybatisGenerator.Generator" />
+      <module name="todos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sleekflow.lwd.config.mybatisGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.sleekflow.lwd.TodosApplication" />
+      <module name="todos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sleekflow.lwd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="Application.TodosApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TodosApplication" />
+        <item itemvalue="Application.Generator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f0cc016-5b1f-4cac-9aa8-324f5b4f70e8" name="Default Changelist" comment="" />
+      <created>1669813582626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669813582626</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sleekflow/lwd/config/security/jwt/JwtTokenUtil.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0-sources.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

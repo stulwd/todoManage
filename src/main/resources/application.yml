@@ -1,0 +1,66 @@
+spring:
+  application:
+    name: todos
+  profiles:
+    active: dev #默认为开发环境
+  datasource:
+    url: jdbc:mysql://localhost:3306/sleekflow?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    druid:
+      initial-size: 5 #连接池初始化大小
+      min-idle: 10 #最小空闲连接数
+      max-active: 20 #最大连接数
+      web-stat-filter:
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" #不统计这些请求数据
+      stat-view-servlet: #访问监控网页的登录用户名和密码
+        login-username: druid
+        login-password: druid
+  redis:
+    host: localhost
+    database: 0
+    port: 6379
+    password:
+    timeout: 300ms
+
+redis:
+  database: mall
+  key:
+    colla: 'colla'
+    admin: 'ums:admin'
+    resourceList: 'ums:resourceList'
+  expire:
+    common: 86400 # 24小时
+
+
+mybatis:
+  mapper-locations:
+    - classpath:dao/*.xml
+    - classpath*:org/sleekflow/lwd/mapper/*.xml
+
+jwt:
+  tokenHeader: Authorization #JWT存储的请求头
+  secret: todos-login-secret #JWT加解密使用的密钥
+  expiration: 604800 #JWT的超期限时间(60*60*24*7) # 一周时间
+  tokenHead: 'Bearer '  #JWT负载中拿到开头
+
+secure:
+  ignored:
+    urls: #安全路径白名单
+      - /swagger-ui.html
+      - /swagger-resources/**
+      - /swagger/**
+      - /**/v2/api-docs
+      - /**/*.js
+      - /**/*.css
+      - /**/*.png
+      - /**/*.ico
+      - /webjars/springfox-swagger-ui/**
+      - /actuator/**
+      - /druid/**
+      - /user/login
+      - /user/register
+      #      - /admin/info
+      - /user/logout
+      - /minio/upload
+      - /aliyun/oss/**
